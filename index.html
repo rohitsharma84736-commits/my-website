@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First Website</title>
+  <title>Percentage Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p id="message">This is my first website. I built it myself!</p>
-  <button onclick="changeMessage()">Click Me</button>
-
+  <h1>Percentage Calculator</h1>
+  <p>Enter your marks to find your percentage.</p>
+  <input type="number" id="obtained" placeholder="Marks obtained">
+  <input type="number" id="total" placeholder="Total marks">
+  <br>
+  <button onclick="calculate()">Calculate</button>
+  <p id="result"></p>
   <script src="script.js"></script>
 </body>
 </html>
